@@ -1,0 +1,22 @@
+--Student functionality related data
+
+--Student table
+CREATE TABLE STUDENT (
+    ID BIGINT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(30) NOT NULL,
+    SURNAME VARCHAR(30) NOT NULL
+ );
+
+--Student data
+INSERT INTO STUDENT (ID, NAME, SURNAME) VALUES (1, 'Pirmas', 'Test');
+INSERT INTO STUDENT (ID, NAME, SURNAME) VALUES (2, 'Antras', 'Test');
+INSERT INTO STUDENT (ID, NAME, SURNAME) VALUES (3, 'Trecias', 'Test');
+
+
+
+
+
+
+
+
+
